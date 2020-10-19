@@ -1,0 +1,27 @@
+{
+    "name": "com.mirrorng.websocket",
+    "displayName": "MirrorNG Websocket",
+    "version": "1.0.0",
+    "unity": "2019.1",
+    "description": "Websocket transport for MirrorNG",
+    "author": "Paul Pacheco",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MirrorNG/MirrorNG_Websocket.git"
+    },
+    "dependencies": {
+        "com.mirrorng.mirrorng": "43.3.2"
+    },
+    "samples": [
+        {
+            "displayName": "Basic",
+            "description": "Demonstrate simple setup and synchronizing data",
+            "path": "Samples~/Basic"
+        },
+        {
+            "displayName": "Multiplex",
+            "description": "Demonstrate using both TCP and websocket transports in the same server",
+            "path": "Samples~/Multiplex"
+        }
+    ]
+}
